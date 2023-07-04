@@ -56,11 +56,17 @@ La respuesta tiene el siguiente formato:
 
 ## Vistas
 
-Hay 3 vistas disponibles para probar y visualizar los endpoints de una manera más amigable:
+Hay 3 vistas disponibles para interactuar con los endpoints de la API de una manera más amigable:
 
 - `/home` [http://localhost:9000/](http://localhost:9000/)
+  <img width="1089" alt="Captura de pantalla 2023-07-04 a la(s) 01 19 16" src="https://github.com/SergioRodas/Backend-Challenge/assets/56599469/18a9d815-a0f7-4321-926d-266eaeb24d1c">
+
 - `/stats` [http://localhost:9000/stats](http://localhost:9000/stats)
+<img width="1089" alt="Captura de pantalla 2023-07-04 a la(s) 01 19 37" src="https://github.com/SergioRodas/Backend-Challenge/assets/56599469/7e0c2995-4bc1-4ffd-b56e-86f5c1bfe053">
+
 - `/mutationCheck` [http://localhost:9000/mutationCheck](http://localhost:9000/mutationCheck)
+<img width="1089" alt="Captura de pantalla 2023-07-04 a la(s) 01 19 59" src="https://github.com/SergioRodas/Backend-Challenge/assets/56599469/61465fcc-9710-4a93-8015-1a4518fb636d">
+
 
 ## Rutas y controlador
 
