@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('nucleotide_sequences', function (Blueprint $table) {
             $table->id();
-            $table->string('sequence');
+            $table->text('sequence');
             $table->boolean('has_mutation')->default(false);
             $table->timestamps();
         });
