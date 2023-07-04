@@ -17,3 +17,9 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+// Ruta para determinar si una secuencia es mutante
+Route::post('/mutant', 'App\Http\Controllers\MutantController@isMutant');
+
+// Ruta para obtener estadísticas de cadenas analizadas
+Route::get('/stats', 'App\Http\Controllers\MutantController@getStats');
