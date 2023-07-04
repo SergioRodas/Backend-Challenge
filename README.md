@@ -35,7 +35,7 @@ Crear un API REST que:
 ## Endpoints de la API
 
 - `GET /api/stats` - Devuelve la cantidad de secuencias totales analizadas, la cantidad de secuencias con mutación y la cantidad de secuencias sin mutación.
-  La respuesta tiene el siguiente formato:
+  La respuesta tiene la siguiente estructura:
   ```json
   {
     "count_sequences_with_mutation": 5,
@@ -46,7 +46,7 @@ Crear un API REST que:
   }
   ```
 - `POST /api/mutant/{sequence}` - Endpoint POST para enviar una secuencia de ARN y ver si contiene o no mutación.
-La respuesta tiene el siguiente formato:
+La respuesta tiene la siguiente estructura:
   ```json
   {
     "message": "mensaje de ejemplo"
