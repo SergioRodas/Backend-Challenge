@@ -2,7 +2,8 @@
 
 Este proyecto se realiza para resolver un challenge de backend. El enunciado del mismo es este:
 
-> ![Captura de pantalla 2023-07-04 a la(s) 00 42 07](https://github.com/SergioRodas/Backend-Challenge/assets/56599469/5dfa2cea-6a22-43a1-8c8b-7537e8d1c518) 
+> ![Captura de pantalla 2023-07-04 a la(s) 00 42 07](https://github.com/SergioRodas/Backend-Challenge/assets/56599469/38e01f09-b7b9-4077-af91-b3d178df1fc9)
+
 
 ## Objetivo
 
