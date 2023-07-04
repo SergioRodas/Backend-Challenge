@@ -13,3 +13,6 @@ composer-update:
 data:
 	docker exec backend-challenge bash -c "php artisan migrate"
 	docker exec backend-challenge bash -c "php artisan db:seed"
+test:
+	docker exec backend-challenge bash -c vendor/bin/phpunit --filter MutationTest
+
